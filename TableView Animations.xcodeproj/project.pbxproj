@@ -12,6 +12,7 @@
 		8909348A217B51B00077B99C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89093488217B51B00077B99C /* Main.storyboard */; };
 		8909348C217B51B20077B99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8909348B217B51B20077B99C /* Assets.xcassets */; };
 		8909348F217B51B20077B99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8909348D217B51B20077B99C /* LaunchScreen.storyboard */; };
+		89093497217B535A0077B99C /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89093496217B535A0077B99C /* ImageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8909348B217B51B20077B99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8909348E217B51B20077B99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89093490217B51B20077B99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89093496217B535A0077B99C /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		89093483217B51B00077B99C /* TableView Animations */ = {
 			isa = PBXGroup;
 			children = (
+				890934AA217B548D0077B99C /* Images */,
 				89093484217B51B00077B99C /* AppDelegate.swift */,
 				89093486217B51B00077B99C /* ViewController.swift */,
+				89093496217B535A0077B99C /* ImageTableViewCell.swift */,
 				89093488217B51B00077B99C /* Main.storyboard */,
 				8909348B217B51B20077B99C /* Assets.xcassets */,
 				8909348D217B51B20077B99C /* LaunchScreen.storyboard */,
 				89093490217B51B20077B99C /* Info.plist */,
 			);
 			path = "TableView Animations";
+			sourceTree = "<group>";
+		};
+		890934AA217B548D0077B99C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89093497217B535A0077B99C /* ImageTableViewCell.swift in Sources */,
 				89093487217B51B00077B99C /* ViewController.swift in Sources */,
 				89093485217B51B00077B99C /* AppDelegate.swift in Sources */,
 			);
